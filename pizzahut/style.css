@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Nanum";
+    src: url("NanumSquare_acEB.ttf");
+}
+
+@font-face {
+    font-family: "Nanum2";
+    src: url("NanumSquare_acR.ttf");
+}
+
+#menu {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+body {
+    font-family: "Nanum2";
+    background-color: #191718;
+}
+
+
+.team{
+    font-size: small;
+    margin-top: 30%;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.line{
+    border-style: solid; 
+    border-width: 2px 2px 2px 8px; 
+    padding: 12px; 
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.5);
+    border-radius: 15px;
+    position: relative;
+}
+
+.all {
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.line2{
+    border-style: solid; 
+    border-width: auto;
+    word-break: break-all;
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 40px 0px rgba(255,255,255,0.5);
+}
+
+.line3{
+    border-style: solid; 
+    border-width: auto;
+    word-break: break-all;
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 40px 0px rgba(255,255,255,0.5);
+}
+
+
+button {
+    box-shadow: 3px 3px 3px white;
+    transition-duration: 0.5s;
+    opacity: 0.8;
+    position: relative;
+}
+
+button:active{
+    margin-left: 4px;
+    margin-top: 4px;
+    box-shadow: none;
+    opacity: 0.4;
+}
+
+.start {
+    color: white;
+    font-style: "NanumSquare_acR";
+    
+}
+
+.progress-bar{
+    background-color: #ffde5d;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    font-family: "Nanum";
+    display: none;
+    color: white;
+}
+
+.result {
+    font-family: "Nanum2";
+    display: none;
+}
+
+.pizza1{
+    color: #191718;
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;   
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+#fimg {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.more{
+    font-size: 20px;
+    color: white;
+}
+
+.name2 {
+    color: #191718;
+
+}
+
+.rectangle {
+    width: 288px;
+    height: 4px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+
+.result-explain {
+    font-size: 15px;
+    font-weight: normal;
+    color: #191718;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.result-name {
+    font-size: 20px;
+    font-weight: normal;
+    color: #cf0714;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.name-explain {
+    font-size: 15px;
+    font-weight: normal;
+    color: #191718;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.banner-img {
+    width: 200px;
+}
+
+.share {
+    font-size: 20px
+}
